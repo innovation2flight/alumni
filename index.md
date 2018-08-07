@@ -10,14 +10,14 @@ Innovation to Flight Projects seek to facilitate a rapid maturation of new conce
 <section class="people">
 	{% for member in site.data.members %}
 	<article>
-		<a href="http://facebook.com">
-			<span class="image">
+<!-- 		<a href="http://facebook.com">
+ -->			<span class="image">
 				<img src="images/headshots/{{ member.image }}" alt="" />
 			</span>
 			<h3>{{ member.name }}</h3>
 			<p>{{ member.school }} | {{ member.major}}</p>
 			<p>{{ member.project }}</p>
-		</a>
+		<!-- </a> -->
 	</article>
 	{% endfor %}
 </section>
