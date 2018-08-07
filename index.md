@@ -8,16 +8,16 @@ Innovation to Flight Projects seek to facilitate a rapid maturation of new conce
 ## Class of 2018
 
 <section class="people">
-	{% for member in site.data.members %}
+	{% for member in site.members %}
 	<article>
-<!-- 		<a href="http://facebook.com">
- -->			<span class="image">
+		<a href="{{ member.url }}">
+			<span class="image">
 				<img src="images/headshots/{{ member.image }}" alt="" />
 			</span>
 			<h3>{{ member.name }}</h3>
 			<p>{{ member.school }} | {{ member.major}}</p>
 			<p>{{ member.project }}</p>
-		<!-- </a> -->
+		</a>
 	</article>
 	{% endfor %}
 </section>

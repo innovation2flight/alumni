@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <h1>{{ page.name }}</h1>
+
+    <span class="image left">
+		<img src="../images/headshots/{{ page.image }}" alt="" />
+	</span>
+
+	<p>{{ page.school }}</p>
+	<p>{{ page.major }} major</p>
+	<p>{{ page.project }}</p>
+	<p>{{ page.email }}</p>
+
+    {{ content }} 
+
+	<a href="{{ 'index.html' | relative_url }}" class="button">Home</a>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

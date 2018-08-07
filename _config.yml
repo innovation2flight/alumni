@@ -12,6 +12,11 @@ description: Alumni site for the i2f program at NASA JPL.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
+collections:
+  members:
+    output: true
+    permalink: /:collection/:name
+
 # Logo settings
 logo-image-url: images/logo.png
 font-awesome-icon-logo:
