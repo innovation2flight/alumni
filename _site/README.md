@@ -1,6 +1,21 @@
 # NASA JPL i2f Alumni Website
 
-Info goes here.
+To add yourself to the i2f alumni site, complete the following steps:
+1. Add your professional headshot photo to the directory ```images > headshots```, the image should be square and less than 1000 x 1000px.
+2. Add a markdown file in the directory ```_members``` with your information, the format is as follows:
+```
+---
+layout: member <!-- don't change this line -->
+name: Hunter Hall
+school: UC Berkeley
+major: Astrophysics
+project: Zephyrus & Talos
+email: hall AT berkeley DOT edu
+image: hunter.png <!-- the name of the image you added in step 1 -->
+---
+Here is my bio written in the first person.
+```
+3. Commit and push the changes to the markdown file, your webpages should be automatically generated and updated on the website.
 
 ## Credits
 Jekyll integration by [Andrew Banchich](https://github.com/andrewbanchich/phantom-jekyll-theme):

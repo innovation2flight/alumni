@@ -1,5 +1,5 @@
 ---
-layout: member <!-- don't change this line -->
+layout: member # don't change this line
 name: Hunter Hall
 school: UC Berkeley
 major: Astrophysics
