@@ -9,8 +9,8 @@
 title: i2f Alumni
 # email: admin@uav.berkeley.edu
 description: Alumni site for the i2f program at NASA JPL.
-# baseurl: "/i2f_alumni" # the subpath of your site, e.g. /blog
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/i2f_alumni" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 collections:
