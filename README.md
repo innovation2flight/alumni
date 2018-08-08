@@ -5,7 +5,7 @@ To add yourself to the i2f alumni site, complete the following steps:
 2. Add a markdown file in the directory ```_members``` with your information, the format is as follows:
 ```
 ---
-layout: member <!-- don't change this line -->
+layout: member # don't change this line
 name: Hunter Hall
 school: UC Berkeley
 major: Astrophysics
