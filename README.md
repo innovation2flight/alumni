@@ -1,7 +1,7 @@
 # NASA JPL i2f Alumni Website
 
 To add yourself to the i2f alumni site, complete the following steps (there is no need to clone this repo, all the steps can be completed from the github online interface):
-1. Add your professional headshot photo to the directory ```images > headshots```, the image should be square and less than 1000 x 1000px.
+1. Add your professional headshot photo to the directory ```images > headshots```, the image should be square and less than 1000 x 1000px. A site like [Croppola](https://croppola.com/) has the functionality to crop and scale your photo.
 2. Add a markdown file in the directory ```_members``` for yourself, copy and paste the format below into a new file named ```[NAME].md``` and update your information (colons are used as delimiters in the YAML header of each markdown file, ***do not add any extra colons***, dashes are ok).
 ```
 ---
