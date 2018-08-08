@@ -2,7 +2,7 @@
 
 To add yourself to the i2f alumni site, complete the following steps (there is no need to clone this repo, all the steps can be completed from the github online interface):
 1. Add your professional headshot photo to the directory ```images > headshots```, the image should be square and less than 1000 x 1000px.
-2. Add a markdown file in the directory ```_members``` with your information, the format is as follows:
+2. Add a markdown file in the directory ```_members``` for yourself, copy and paste the format below into a new file named ```[NAME].md``` and update your information.
 ```
 ---
 layout: member # don't change this line
