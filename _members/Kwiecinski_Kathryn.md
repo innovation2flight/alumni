@@ -1,5 +1,5 @@
 ---
-layout: member # don't change this line
+layout: member
 name: Kathryn Kwiecinski
 school: University of Minnesota: Twin Cities
 major: Aerospace Engineering
