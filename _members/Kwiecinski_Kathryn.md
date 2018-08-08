@@ -3,7 +3,7 @@ layout: member
 name: Kathryn Kwiecinski
 school: University of Minnesota - Twin Cities
 major: Aerospace Engineering
-project: Talos
+project: Zephyrus & Talos 
 email: kwiec004 AT umn DOT edu
 image: Kathryn_Kwiecinski_square1000x1000.jpg
 ---
