@@ -11,7 +11,7 @@ school: UC Berkeley
 major: Astrophysics
 project: Zephyrus & Talos
 email: hall AT berkeley DOT edu
-image: hunter.png <!-- the name of the image you added in step 1 -->
+image: hunter.png # the name of the image you added in step 1
 ---
 Here is my bio written in the first person.
 ```
