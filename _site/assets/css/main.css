@@ -2112,8 +2112,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			border-bottom-color: #ff0000;
+			box-shadow: inset 0 -1px 0 0 #ff0000;
 		}
 
 	.select-wrapper {
@@ -2223,8 +2223,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #ff0000;
+			box-shadow: 0 0 0 1px #ff0000;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2370,7 +2370,7 @@
 		text-overflow: ellipsis;
 		text-transform: uppercase;
 		white-space: nowrap;
-		margin: 0 auto;
+		margin: 0 auto 2.5em 0;
 		float: center;
 	}
 
@@ -2398,7 +2398,7 @@
 		button:hover,
 		.button:hover {
 			color: #ff0000 !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			box-shadow: inset 0 0 0 2px #ff0000;
 		}
 
 		input[type="submit"]:active,
@@ -2440,7 +2440,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f2849e;
+				background-color: #ff0000;
 			}
 
 			input[type="submit"].special:active,
@@ -2677,7 +2677,7 @@
 						}
 
 						#header nav ul li a[href="#menu"]:before {
-							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23f2849e%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
+							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23ff0000%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
 							opacity: 0;
 						}
 
