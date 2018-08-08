@@ -9,18 +9,42 @@
 
     <h1>{{ page.name }}</h1>
 
-    <span class="image left">
-		<img src="../images/headshots/{{ page.image }}" alt="" />
-	</span>
+    <div class="info">
+	    <span class="image main profile">
+			<img src="../images/headshots/{{ page.image }}" alt="" />
+		</span>
 
-	<p>{{ page.school }}</p>
-	<p>{{ page.major }} major</p>
-	<p>{{ page.project }}</p>
-	<p>{{ page.email }}</p>
+		<div class="table-wrapper">
+			<table>
+				<tbody>
+					<tr>
+					<td><b>University</b></td>
+					<td>{{ page.school }}</td>
+					</tr>
+
+					<tr>
+					<td><b>Major</b></td>
+					<td>{{ page.major }}</td>
+					</tr>
+
+					<tr>
+					<td><b>Project</b></td>
+					<td>{{ page.project }}</td>
+					</tr>
+
+					<tr>
+					<td><b>Contact</b></td>
+					<td>{{ page.email }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 
     {{ content }}
 
 	<a href="{{ 'index.html' | relative_url }}" class="button">Home</a>
+	<br>
 
     {% include footer.html %}
 
