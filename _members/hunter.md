@@ -7,4 +7,4 @@ project: Zephyrus & Talos
 email: hall AT berkeley DOT edu
 image: hunter.png
 ---
-here's my bio im hunter blah.
+Here's a bio.
