@@ -17,6 +17,9 @@ Here is my bio written in the first person.
 ```
 3. Commit the changes to the markdown file, your webpages should be automatically generated and updated on the website. Allow a few minutes for your changes to show, the temporarily hosted site is [here](https://treyfortmuller.github.io/i2f_alumni/).
 
+### Github Pages URL Structure in Jekyll
+[Here](https://github.com/jekyll/jekyll/blob/master/docs/_docs/github-pages.md) is some well written docs about how to use Jekyll's liquid templating to have local and remote links work locally and when published via Github Pages.
+
 ## Credits
 Jekyll integration by [Andrew Banchich](https://github.com/andrewbanchich/phantom-jekyll-theme):
 ```
