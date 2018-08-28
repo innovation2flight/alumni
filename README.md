@@ -1,8 +1,12 @@
 # NASA JPL i2f Alumni Website
 
 To add yourself to the i2f alumni site, complete the following steps (there is no need to clone this repo, all the steps can be completed from the github online interface):
-1. Add your professional headshot photo to the directory ```images > headshots```, the image should be ***square*** (equal height and width) and less than 1000 x 1000px. A site like [Croppola](https://croppola.com/) has the functionality to crop and scale your photo.
-2. Add a markdown file in the directory ```_members``` for yourself, copy and paste the format below into a new file named ```[NAME].md``` and update your information (colons are used as delimiters in the YAML header of each markdown file, ***do not add any extra colons***, dashes are ok).
+
+1. Gain access to this repository via internal communication. Either add your own GitHub account as a collaborator to this repo by going to settings > collaborators, and typing your name. Or, you can make changes directly from the innovation2flight GitHub account.
+
+2. Add your professional headshot photo to the directory ```images > headshots```, the image should be ***square*** (equal height and width) and less than 1000 x 1000px. A site like [Croppola](https://croppola.com/) has the functionality to crop and scale your photo.
+
+3. Add a markdown file in the directory ```_members``` for yourself, copy and paste the format below into a new file named ```[NAME].md``` and update your information (colons are used as delimiters in the YAML header of each markdown file, ***do not add any extra colons***, dashes are ok), below is an example you can copy/paste as a template.
 ```
 ---
 layout: member # don't change this line
@@ -15,7 +19,7 @@ image: hunter.png # the name of the image you added in step 1
 ---
 Here is my bio written in the first person.
 ```
-3. Commit the changes to the markdown file, your webpages should be automatically generated and updated on the website. Allow a few minutes for your changes to show, the temporarily hosted site is [here](https://innovation2flight.github.io/alumni/).
+4. Commit the changes to the markdown file, your webpages should be automatically generated and updated on the website. Allow a few minutes for your changes to show, the temporarily hosted site is [here](https://innovation2flight.github.io/alumni/).
 
 ### Github Pages URL Structure in Jekyll
 [Here](https://github.com/jekyll/jekyll/blob/master/docs/_docs/github-pages.md) is some well written docs about how to use Jekyll's liquid templating to have local and remote links work locally and when published via Github Pages.
