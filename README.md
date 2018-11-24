@@ -2,7 +2,7 @@
 
 To add yourself to the i2f alumni site, complete the following steps (there is no need to clone this repo, all the steps can be completed from the github online interface):
 
-1. Gain access to this repository via internal communication. Either add your own GitHub account as a collaborator to this repo by going to settings > collaborators, and typing your name. Or, you can make changes directly from the innovation2flight GitHub account.
+1. Gain access to this repository by getting the username and password for the i2f github account which is stored in the Google Drive in a spreadsheet called "Accounts and Passwords". Either add your own GitHub account as a collaborator to this repo by going to settings > collaborators, and typing your name. Or, you can make changes directly from the innovation2flight GitHub account.
 
 2. Add your professional headshot photo to the directory ```images > headshots```, the image should be ***square*** (equal height and width) and less than 1000 x 1000px. A site like [Croppola](https://croppola.com/) has the functionality to crop and scale your photo.
 
